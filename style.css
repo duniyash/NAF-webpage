@@ -1,0 +1,95 @@
+/*general style setting*/
+
+* {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    overflow-y: visible;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*font imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alef&family=Open+Sans&family=Scope+One&display=swap');
+
+/*header and navbar*/
+
+.header-container {
+    position: absolute;
+    margin: 32px 260px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1c1c1;
+    border-radius: 32px;
+}
+
+header {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin: 10px;
+    width: 80px;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 32px;
+    border-radius: 16px;
+    transition: 150ms ease-in-out;
+}
+
+nav ul li a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li:hover {
+    background-color: #386344;
+}
+
+nav ul li:hover a {
+    color: #fff;
+}
+
+
+/*index page body*/
+
+.landing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 62px;
+    font-family: 'Open Sans', sans-serif;
+}
