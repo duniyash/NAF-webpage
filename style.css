@@ -21,20 +21,21 @@ a:visited {
 
 /*header and navbar*/
 
-.header-container {
-    position: absolute;
-    margin: 32px 260px;
-    width: 1400px;
+header {
+    padding: 12px 24px;
+    width: 100vw;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c1c1c1;
-    border-radius: 32px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    z-index: 1;
 }
 
-header {
+.header-container {
     display: flex;
-    width: 95%;
+    width: 1400px;
     justify-content: space-between;
 }
 
@@ -82,14 +83,66 @@ nav ul li:hover a {
 
 /*index page body*/
 
+section {
+    width: 100vw;
+}
+
 .landing {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.landing .title-card {
+    position: relative;
+    margin-top: 94px;
+    background-color: #386344;
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title {
     font-size: 62px;
     font-family: 'Open Sans', sans-serif;
+    color: #0F1A12;
+}
+
+
+/*about*/
+
+.about {
+    background-image: url(img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-set {
+    width: 60vw;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.text-set:last-child {
+    margin-bottom: 50px;
+}
+
+.text-set h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #386344;
+    font-size: 24px;
+}
+
+.text-set p {
+    font-family: 'Alef', sans-serif;
+    color: #0F1A12;
+    margin-top: 25px;
+    font-weight: 200;
 }
