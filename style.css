@@ -17,7 +17,7 @@ a:visited {
 
 /*font imports*/
 
-@import url('https://fonts.googleapis.com/css2?family=Alef&family=Open+Sans&family=Scope+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Scope+One&display=swap');
 
 /*header and navbar*/
 
@@ -85,21 +85,20 @@ nav ul li:hover a {
 
 section {
     width: 100vw;
-    background: rgb(115, 162, 105);
-    background: linear-gradient(90deg, rgba(115, 162, 105, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .landing {
     background-color: #fff;
+    margin-top: 94px;
 }
 
 .landing .title-card {
     position: relative;
-    margin-top: 94px;
+    height: 100vh;
     background-color: #386344;
-    background-image: url(img/bg2.jpg);
+    background-image: url(img/bg1.jpg);
     background-size: cover;
-    height: 50vh;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,18 +106,18 @@ section {
 
 .title {
     font-size: 62px;
+    padding: 25px;
+    background: #a1eb90;
     font-family: 'Open Sans', sans-serif;
-    color: #0F1A12;
+    color: #386344;
+    border-radius: 32px;
 }
 
 .about {
-    /*
-    background-image: url(img/bg1.jpg);
+    background-color: #386344;
+    background-image: url(img/bg3.jpg);
     background-size: cover;
     background-position: center;
-    */
-    background: rgb(37, 28, 19);
-    background: linear-gradient(315deg, rgba(37, 28, 19, 1) 0%, rgba(216, 176, 125, 1) 73%, rgba(207, 180, 150, 1) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -127,6 +126,8 @@ section {
 
 .contact {
     display: flex;
+    background: rgb(56, 99, 68);
+    background: linear-gradient(49deg, rgba(56, 99, 68, 1) 0%, rgba(80, 163, 61, 1) 100%);
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -152,8 +153,9 @@ section {
 }
 
 .text-set p {
-    font-family: 'Open Sans', serif;
+    font-family: 'Scope One', serif;
     color: #0F1A12;
     margin-top: 25px;
+    font-size: 20px;
     font-weight: 400;
 }
