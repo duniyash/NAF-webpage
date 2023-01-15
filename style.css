@@ -85,6 +85,8 @@ nav ul li:hover a {
 
 section {
     width: 100vw;
+    background: rgb(115, 162, 105);
+    background: linear-gradient(90deg, rgba(115, 162, 105, 1) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .landing {
@@ -109,13 +111,21 @@ section {
     color: #0F1A12;
 }
 
-
-/*about*/
-
 .about {
+    /*
     background-image: url(img/bg1.jpg);
     background-size: cover;
     background-position: center;
+    */
+    background: rgb(37, 28, 19);
+    background: linear-gradient(315deg, rgba(37, 28, 19, 1) 0%, rgba(216, 176, 125, 1) 73%, rgba(207, 180, 150, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,11 +148,12 @@ section {
     font-family: 'Open Sans', sans-serif;
     color: #386344;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .text-set p {
-    font-family: 'Alef', sans-serif;
+    font-family: 'Open Sans', serif;
     color: #0F1A12;
     margin-top: 25px;
-    font-weight: 200;
+    font-weight: 400;
 }
