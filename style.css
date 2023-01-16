@@ -94,7 +94,7 @@ section {
 
 .landing .title-card {
     position: relative;
-    height: 50vh;
+    height: 70vh;
     background-color: #386344;
     background-image: url(img/bg-img1.jpg);
     background-size: cover;
@@ -126,9 +126,11 @@ section {
 }
 
 .contact {
+    background-color: #386344;
+    background-image: url(img/bg-img3.jpg);
+    background-size: cover;
+    background-position: bottom;
     display: flex;
-    background: rgb(56, 99, 68);
-    background: linear-gradient(49deg, rgba(56, 99, 68, 1) 0%, rgba(80, 163, 61, 1) 100%);
     align-items: center;
     justify-content: center;
     flex-direction: column;
