@@ -94,11 +94,11 @@ section {
 
 .landing .title-card {
     position: relative;
-    height: 100vh;
+    height: 50vh;
     background-color: #386344;
-    background-image: url(img/bg2.jpg);
+    background-image: url(img/bg-img1.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,8 @@ section {
 .title {
     font-size: 62px;
     padding: 25px;
-    background: #a1eb90;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     font-family: 'Open Sans', sans-serif;
     color: #386344;
     border-radius: 32px;
@@ -115,7 +116,7 @@ section {
 
 .about {
     background-color: #386344;
-    background-image: url(img/bg3.jpg);
+    background-image: url(img/bg-img2.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -133,26 +134,27 @@ section {
     flex-direction: column;
 }
 
-.text-set {
+.text-card {
     width: 60vw;
     margin-top: 50px;
     padding: 50px;
     background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 32px;
 }
 
-.text-set:last-child {
+.text-card:last-child {
     margin-bottom: 50px;
 }
 
-.text-set h1 {
+.text-card h1 {
     font-family: 'Open Sans', sans-serif;
     color: #386344;
     font-size: 24px;
     font-weight: 700;
 }
 
-.text-set p {
+.text-card p {
     font-family: 'Scope One', serif;
     color: #0F1A12;
     margin-top: 25px;
