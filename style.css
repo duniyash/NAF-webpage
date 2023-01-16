@@ -88,17 +88,19 @@ section {
 }
 
 .landing {
-    background-color: #fff;
-    margin-top: 94px;
-}
-
-.landing .title-card {
-    position: relative;
-    height: 70vh;
     background-color: #386344;
     background-image: url(img/bg-img1.jpg);
     background-size: cover;
     background-position: top;
+    margin-top: 94px;
+    height: 70vh;
+}
+
+
+/*
+.landing .title-card {
+    position: relative;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,6 +115,7 @@ section {
     color: #386344;
     border-radius: 32px;
 }
+*/
 
 .about {
     background-color: #386344;
